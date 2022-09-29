@@ -9,6 +9,12 @@ EXPECTEDHOME_URL = 'https://www.saucedemo.com/inventory.html'
 USERNAME_FIELD = '#loginusername'
 PASSWORD_FIELD = '#loginpassword'
 
-USERNAME="oliri"
-PASSWORD="oliri"
+USERNAME_STRING="oliri"
+PASSWORD_STRING="oliri"
+
+SIGNUP_LINK="#signin2"
+
+SIGNUP_USER_FIELD="#sign-username"
+SIGNUP_PASSWORD_FIELD="#sign-password"
+SIGNUP_BUTTON="#signInModal > div > div > div.modal-footer > button.btn.btn-primary"
 

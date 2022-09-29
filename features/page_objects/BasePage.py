@@ -27,3 +27,23 @@ def get_element_text(self, css_selector):
 
 def wait_until_text_is_present(self, css_selector, text):
     WebDriverWait(self.driver, 20).until(expected_conditions.text_to_be_present_in_element((By.CSS_SELECTOR, css_selector), text))
+
+def get_text_alert(self):
+    return self.driver.switch_to.alert.text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
