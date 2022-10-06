@@ -11,3 +11,4 @@ def launch_browser(context, browser):
 
 def navigate_to_url(context, url):
     context.driver.get(url)
+    

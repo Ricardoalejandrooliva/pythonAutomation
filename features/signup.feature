@@ -2,9 +2,10 @@ Feature: signup
 
           as a user 
           I want to create a user
-          in order to validate figure el pop up Sign up successful
+          the user signs up with credentials not registered on the system.
 
  Scenario: sign up validate pop up 
         Given the user is on https://www.demoblaze.com/
-        When user must register with non-existing user
+        When the user signs up with credentials not registered on the system.
         Then pop up Sign up successful
+       

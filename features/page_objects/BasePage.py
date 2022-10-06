@@ -30,20 +30,3 @@ def wait_until_text_is_present(self, css_selector, text):
 
 def get_text_alert(self):
     return self.driver.switch_to.alert.text
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
