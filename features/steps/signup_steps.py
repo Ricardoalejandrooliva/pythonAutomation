@@ -1,5 +1,4 @@
 from behave import when, then
-from selenium.webdriver.support.ui import WebDriverWait
 from features.page_objects.BasePage import click_element_by_css_selector, get_text_alert, send_keys_by_css_selector, get_text_alert
 from features.page_objects.header_page import PASSWORD_STRING, SIGNUP_BUTTON, SIGNUP_LINK, SIGNUP_PASSWORD_FIELD, SIGNUP_USER_FIELD
 import time
